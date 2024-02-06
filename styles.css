@@ -106,6 +106,7 @@ header{
 }
 .offering{
     display: flex;
+    margin: 10vh 0;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -139,14 +140,14 @@ header{
     width: 40vw;
 
 }
-.t-p h3{
+.t-p h1{
     color: #0C3379;
 }
 .t-p{
     display: flex;
     flex-direction: column;
     width: 45%;
-    gap: 5vh;
+    gap: 2vh;
 }
 
 
@@ -164,15 +165,18 @@ header{
 .con h1{
     color: #0C3379;
     font-weight: 500;
+    font-size: 35px;
 }
 .con h3{
     color: #266AE1;
+    font-size: 25px;
     font-weight: 500;
 }
 .list{
     display: flex;
     width: 40vw;
-    justify-content: space-around;
+    gap: 4vw;
+    padding-left: 1vw;
 }
 .list ul li{
     font-size: 15px;
