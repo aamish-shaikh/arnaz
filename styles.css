@@ -141,9 +141,15 @@ header{
 
 }
 .t-p h1{
+    font-size: 30px;
     color: #0C3379;
 }
+.t-p p{
+    font-size: 20px;
+    font-weight: 300;
+}
 .t-p{
+    padding: 5vw 0;
     display: flex;
     flex-direction: column;
     width: 45%;
@@ -165,11 +171,11 @@ header{
 .con h1{
     color: #0C3379;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 40px;
 }
 .con h3{
     color: #266AE1;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
 }
 .list{
@@ -179,7 +185,7 @@ header{
     padding-left: 1vw;
 }
 .list ul li{
-    font-size: 15px;
+    font-size: 20px;
     color: #0C3379;
 }
 .image-sec img{
@@ -213,6 +219,7 @@ header{
     width: 20%;
 }
 .documents h1{
+    font-size: 35px;
     font-weight: 600;
     color: #0C3379;
     text-align: center;
@@ -238,6 +245,7 @@ header{
     }
 
     .dropdown button {
+        font-size: 20px;
       width: 450px;
       margin: 1vh 0;
       height: 50px;
@@ -250,6 +258,7 @@ header{
     }
 
     .dropdown-content {
+        font-size: 20px;
       display: none;
       position: absolute;
       width: 450px;
@@ -289,6 +298,7 @@ header{
 
 }
 .gall{
+    padding: 5vh 0;
     display: flex;
     flex-wrap: wrap;
     width: 80%;
@@ -297,8 +307,12 @@ header{
     gap: 5vh 5vw;
 }
 .gall img{
-    width: 15%;
+    width: 10%;
 }
+.partners{
+    position: relative;
+}
+
 .contact-form{
     display: flex;
     justify-content: center;
@@ -360,7 +374,7 @@ footer{
         background-position: center ;
     }
     .logo img {
-        margin: 10% 0;
+        margin: 7% 0;
         width: 40%;
     }
     .head-content h1 {
